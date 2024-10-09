@@ -3,6 +3,7 @@
 import { FaHtml5, FaCss3, FaJs, FaNodeJs, FaReact,   } from "react-icons/fa"
 import { SiFirebase, SiMongodb, SiSqlite, SiPython, SiDjango, SiFlask } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
+import { GiBrain } from 'react-icons/gi';    // For Machine Learning (brain icon)
 
 const about = {
   title: "About Me",
@@ -159,6 +160,16 @@ const skills={
       icon: <SiDjango/>,
       name: "Django",
     },
+    {
+      icon: <GiBrain/>,
+      name: "Machine Learning",
+    },
+    {
+      icon: <GrMysql/>,
+      name: "MySQL",
+    },
+
+
 
   ]
 }
