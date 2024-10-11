@@ -3,7 +3,7 @@
 import { FaHtml5, FaCss3, FaJs, FaNodeJs, FaReact,   } from "react-icons/fa"
 import { SiFirebase, SiMongodb, SiSqlite, SiPython, SiDjango, SiFlask } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
-import { GiBrain } from 'react-icons/gi';    // For Machine Learning (brain icon)
+import { GiBrain } from 'react-icons/gi';    
 
 const about = {
   title: "About Me",
@@ -179,10 +179,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { motion
-
-
- } from "framer-motion";
+import { motion } from "framer-motion";
 const Resume = () => {
   return (
     <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{delay:2.4,duration:0.4 ,ease:"easeIn"}}}
@@ -302,8 +299,6 @@ const Resume = () => {
             </TabsContent>
           </div>
         </Tabs>
-
-
       </div>
     </motion.div>
   )
