@@ -10,8 +10,6 @@ import {FaPhoneAlt, FaEnvelope, FaMapMarkerAlt} from "react-icons/fa"
 import { Description } from "@radix-ui/react-dialog"
 import { motion } from "framer-motion"
 
-
-
 const info =[
   {
     icon: <FaPhoneAlt/>, 
@@ -29,7 +27,6 @@ const info =[
     Description:"Kandivali(West), Mumbai-400067"
   },
 ]
-
 
 const Contact = () => {
   return (
